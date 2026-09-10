@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Ahmed Arfaoui — AI/ML Engineer</title>
+<desc id="desc">Architectural typography and a geometric AA monogram. Agents, retrieval, predictive systems.</desc>
+<rect width="1200" height="360" fill="#16191c"/>
+<path d="M40 40H1160M40 294H1160M878 40V294" stroke="#343a3d" fill="none"/>
+<rect x="40" y="40" width="46" height="5" fill="#ff926b"/>
+<g font-family="DejaVu Sans Mono, monospace" font-size="14" letter-spacing="2" fill="#a7acae">
+<text x="40" y="75">ENGINEERING / SELECTED WORK</text>
+<text x="40" y="332">AGENTS</text><text x="244" y="332">RETRIEVAL</text><text x="478" y="332">PREDICTIVE SYSTEMS</text>
+<text x="1120" y="332" text-anchor="end">AA / 01</text></g>
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" fill="#f1f0e9">
+<text x="34" y="160" font-size="76" letter-spacing="-4">AHMED ARFAOUI</text>
+<text x="38" y="234" font-size="53" letter-spacing="-2">AI/ML ENGINEER<tspan fill="#ff926b">.</tspan></text></g>
+<g fill="none" stroke="#343a3d" stroke-width="1">
+<path d="M918 84H1120M918 126H1120M918 168H1120M918 210H1120M918 252H1120M934 68V266M976 68V266M1018 68V266M1060 68V266M1102 68V266"/>
+</g>
+<g fill="none" stroke="#f1f0e9" stroke-width="15" stroke-linejoin="miter">
+<path d="M925 250L975 106H991L1041 250M941 207H1025"/>
+<path d="M999 250L1049 106H1065L1115 250M1015 207H1099"/>
+</g>
+<rect x="1108" y="243" width="15" height="15" fill="#ff926b"/>
+<path d="M1153 75H1167M1160 68V82M33 280H47M40 273V287" stroke="#a7acae" fill="none"/>
+</svg>
