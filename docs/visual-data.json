@@ -1,0 +1,95 @@
+{
+  "pitwall": {
+    "mae": 1.2713549420530403,
+    "rmse": 3.1593576517954194,
+    "pinball_q10": 0.47682365757666645,
+    "pinball_q50": 0.6356774710265202,
+    "pinball_q90": 0.5044478995029569,
+    "coverage_80": 0.5835665225133554,
+    "mean_width": 1.1999999999999886,
+    "n": 3931,
+    "p95_ms": 5.858592800029781,
+    "coverage_80_calibrated": 0.7855507504451793,
+    "mean_width_calibrated": 2.2575010080811353,
+    "per_compound": {
+      "MEDIUM": 1.1565487527810072,
+      "HARD": 1.1355148150395868,
+      "SOFT": 1.5257917347512613
+    },
+    "point_mae_vs_quantile_p50": 0,
+    "quantile_enabled": false,
+    "tyre_mae": 1.7068432532691562,
+    "tyre_rmse": 5.515852651442005,
+    "pit_auc": 0.7407560010513828,
+    "pit_logloss": 0.5322786650289761,
+    "pit_pos_rate": 0.059955257270693514,
+    "shap_top_feature": "rolling_median_3",
+    "shap_top_importance": 100
+  },
+  "signalrank": {
+    "cv_id": "ahmed_cv",
+    "jobs": 500,
+    "qrels": 500,
+    "relevant_ge1": 274,
+    "relevant_eq2": 7,
+    "k": 10,
+    "methods": {
+      "embedding": {
+        "precision@10": 0.5,
+        "recall@10": 0.01824817518248175,
+        "precision@5": 0.4,
+        "recall@5": 0.0072992700729927005,
+        "mrr": 0.5,
+        "ndcg@10": 0.2756657435664571,
+        "ndcg@5": 0.2577212905719748,
+        "latency_p50_ms": 45
+      },
+      "bm25": {
+        "precision@10": 0.4,
+        "recall@10": 0.014598540145985401,
+        "precision@5": 0.6,
+        "recall@5": 0.010948905109489052,
+        "mrr": 1,
+        "ndcg@10": 0.26971250841687733,
+        "ndcg@5": 0.3263685302321273
+      },
+      "hybrid": {
+        "precision@10": 0.4,
+        "recall@10": 0.014598540145985401,
+        "precision@5": 0.4,
+        "recall@5": 0.0072992700729927005,
+        "mrr": 0.5,
+        "ndcg@10": 0.259270369053424,
+        "ndcg@5": 0.27051296561346355
+      }
+    },
+    "notes": "hybrid-only CI skips CE; full eval with --with-ce"
+  },
+  "timeline": [
+    {
+      "repo": "Data-Farmers-FarmWise-4DS3",
+      "created_at": "2025-01-21T11:00:01Z"
+    },
+    {
+      "repo": "Open-Web-Catcher",
+      "created_at": "2026-04-05T16:24:37Z"
+    },
+    {
+      "repo": "pursivo",
+      "created_at": "2026-08-04T23:41:28Z"
+    },
+    {
+      "repo": "huntflow",
+      "created_at": "2026-08-18T11:07:30Z"
+    },
+    {
+      "repo": "signalrank",
+      "created_at": "2026-08-20T19:52:57Z"
+    },
+    {
+      "repo": "PitWall-ML",
+      "created_at": "2026-08-21T11:50:51Z"
+    }
+  ],
+  "reviewed_on": "2026-09-10"
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">04 / SIGNALRANK</title><desc id="desc">Candidate generation branches, then fusion and optional reranking.</desc>
+<rect width="900" height="430" fill="#16191c"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#adb3b5"/></marker></defs>
+<style>.signal{stroke-dasharray:5 14;animation:flow 5s linear infinite}@keyframes flow{to{stroke-dashoffset:-76}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+<text x="32" y="43" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">04 / SIGNALRANK</text>
+<text x="32" y="71" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Candidate generation branches, then fusion and optional reranking.</text>
+<path d="M262 156H335" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M262 156H335" fill="none" stroke="#ff926b" stroke-width="2.5"/>
+<path d="M147 112V94H753V112" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M147 112V94H753V112" fill="none" stroke="#ff926b" stroke-width="2.5"/>
+<path d="M450 200V222H715V248" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M753 200V248" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M638 292H565" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M638 292H565" fill="none" stroke="#ff926b" stroke-width="2.5"/>
+<path d="M335 292H262" fill="none" stroke="#adb3b5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="32" y="112" width="230" height="88" fill="#1d2327" stroke="#454d50" stroke-width="1.5"/>
+<text x="48" y="147" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">CV / query</text>
+<text x="48" y="175" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Candidate profile text</text>
+<rect x="335" y="112" width="230" height="88" fill="#1d2327" stroke="#ff926b" stroke-width="1.5"/>
+<text x="351" y="147" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Lexical retrieval</text>
+<text x="351" y="175" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">BM25 / PostgreSQL FTS</text>
+<rect x="638" y="112" width="230" height="88" fill="#1d2327" stroke="#454d50" stroke-width="1.5"/>
+<text x="654" y="147" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Vector retrieval</text>
+<text x="654" y="175" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Embeddings · pgvector</text>
+<rect x="32" y="248" width="230" height="88" fill="#1d2327" stroke="#454d50" stroke-width="1.5"/>
+<text x="48" y="283" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Ranked results</text>
+<text x="48" y="311" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">P@K · MRR · nDCG</text>
+<rect x="335" y="248" width="230" height="88" fill="#1d2327" stroke="#ff926b" stroke-width="1.5"/>
+<text x="351" y="283" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Cross-encoder</text>
+<text x="351" y="311" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Optional · fallback to RRF</text>
+<rect x="638" y="248" width="230" height="88" fill="#1d2327" stroke="#454d50" stroke-width="1.5"/>
+<text x="654" y="283" fill="#f1f0e9" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Rank fusion</text>
+<text x="654" y="311" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Reciprocal rank fusion</text>
+<path d="M32 373H868" stroke="#454d50"/><text x="32" y="403" fill="#adb3b5" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">The cross-encoder is optional: unavailable models fall back to fused rank order.</text></svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">01 / OPEN WEB CATCHER</title><desc id="desc">Service architecture · animated lines illustrate requests, not live activity.</desc>
+<rect width="900" height="430" fill="#f1f0e9"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#5e6567"/></marker></defs>
+<style>.signal{stroke-dasharray:5 14;animation:flow 5s linear infinite}@keyframes flow{to{stroke-dashoffset:-76}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+<text x="32" y="43" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">01 / OPEN WEB CATCHER</text>
+<text x="32" y="71" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Service architecture · animated lines illustrate requests, not live activity.</text>
+<path d="M262 156H335" fill="none" stroke="#5e6567" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M262 156H335" fill="none" stroke="#b74520" stroke-width="2.5"/>
+<path d="M565 156H638" fill="none" stroke="#5e6567" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M450 200V222H147V248" fill="none" stroke="#5e6567" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M262 292H335" fill="none" stroke="#5e6567" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M262 292H335" fill="none" stroke="#b74520" stroke-width="2.5"/>
+<path d="M565 292H638" fill="none" stroke="#5e6567" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path class="signal" d="M565 292H638" fill="none" stroke="#b74520" stroke-width="2.5"/>
+<rect x="32" y="112" width="230" height="88" fill="#fafaf6" stroke="#c5c8c3" stroke-width="1.5"/>
+<text x="48" y="147" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Operator console</text>
+<text x="48" y="175" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Next.js · run inspection</text>
+<rect x="335" y="112" width="230" height="88" fill="#fafaf6" stroke="#b74520" stroke-width="1.5"/>
+<text x="351" y="147" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Backend</text>
+<text x="351" y="175" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">FastAPI · run control</text>
+<rect x="638" y="112" width="230" height="88" fill="#fafaf6" stroke="#c5c8c3" stroke-width="1.5"/>
+<text x="654" y="147" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Run storage</text>
+<text x="654" y="175" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">SQL · traces &amp; evidence</text>
+<rect x="32" y="248" width="230" height="88" fill="#fafaf6" stroke="#c5c8c3" stroke-width="1.5"/>
+<text x="48" y="283" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Specialist agents</text>
+<text x="48" y="311" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">LangGraph · bounded roles</text>
+<rect x="335" y="248" width="230" height="88" fill="#fafaf6" stroke="#b74520" stroke-width="1.5"/>
+<text x="351" y="283" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Browser tools</text>
+<text x="351" y="311" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Playwright · MCP</text>
+<rect x="638" y="248" width="230" height="88" fill="#fafaf6" stroke="#c5c8c3" stroke-width="1.5"/>
+<text x="654" y="283" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold">Target pages</text>
+<text x="654" y="311" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Chromium · isolated context</text>
+<path d="M32 373H868" stroke="#c5c8c3"/><text x="32" y="403" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="14">Console → API → orchestration → browser execution; run artifacts persist in SQL.</text></svg>

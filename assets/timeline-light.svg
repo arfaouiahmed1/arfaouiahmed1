@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">PROJECT CHRONOLOGY</title><desc id="desc">Repository creation dates · milestones in the public code portfolio, not completion dates.</desc>
+<rect width="900" height="650" fill="#f1f0e9"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#5e6567"/></marker></defs>
+<style>.signal{stroke-dasharray:5 14;animation:flow 5s linear infinite}@keyframes flow{to{stroke-dashoffset:-76}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+<text x="32" y="43" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">PROJECT CHRONOLOGY</text>
+<text x="32" y="71" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Repository creation dates · milestones in the public code portfolio, not completion dates.</text>
+<path d="M233 119V559" stroke="#c5c8c3" stroke-width="2"/>
+<circle cx="233" cy="123" r="5" fill="#b74520"/>
+<text x="32" y="129" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2025-01-21</text>
+<text x="266" y="128" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">FarmWise</text>
+<text x="266" y="155" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Applied ML &amp; computer vision</text>
+<circle cx="233" cy="210" r="5" fill="#b74520"/>
+<text x="32" y="216" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2026-04-05</text>
+<text x="266" y="215" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">Open Web Catcher</text>
+<text x="266" y="242" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Browser agents &amp; evidence collection</text>
+<circle cx="233" cy="297" r="5" fill="#b74520"/>
+<text x="32" y="303" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2026-08-04</text>
+<text x="266" y="302" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">Pursivo</text>
+<text x="266" y="329" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Native Android &amp; optional AI</text>
+<circle cx="233" cy="384" r="5" fill="#b74520"/>
+<text x="32" y="390" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2026-08-18</text>
+<text x="266" y="389" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">HuntFlow</text>
+<text x="266" y="416" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Local-first AI application workflows</text>
+<circle cx="233" cy="471" r="5" fill="#b74520"/>
+<text x="32" y="477" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2026-08-20</text>
+<text x="266" y="476" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">SignalRank</text>
+<text x="266" y="503" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Retrieval &amp; relevance evaluation</text>
+<circle cx="233" cy="558" r="5" fill="#b74520"/>
+<text x="32" y="564" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="19">2026-08-21</text>
+<text x="266" y="563" fill="#202426" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="bold">PitWall ML</text>
+<text x="266" y="590" fill="#5e6567" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Forecasting &amp; uncertainty calibration</text>
+<text x="32" y="622" fill="#5e6567" font-family="DejaVu Sans Mono,monospace" font-size="13">SOURCE / GitHub repository metadata · observed 2026-09-10 · spacing is ordinal</text></svg>

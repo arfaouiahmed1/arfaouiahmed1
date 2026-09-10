@@ -73,7 +73,7 @@ Public demo, portfolio, LinkedIn and email links came from repository READMEs. D
 ## Design and maintenance
 
 - Graphite / warm paper with burnt-orange accent; architectural rules and a custom geometric AA monogram.
-- Local, self-contained SVG headers for GitHub light/dark preferences. No remote font, script, animation or widget dependencies.
+- Local, self-contained SVG headers and diagrams for GitHub light/dark preferences. No remote font, script or widget dependencies. Architecture diagrams use restrained CSS flow animation with a reduced-motion fallback.
 - Real Markdown headings, text and links carry all substantive content; the banner is supplementary and has descriptive alternative text.
 - Sequential project sections preserve readability on narrow screens. Tables are limited to supporting projects and skill mapping.
 - Keep evaluation claims tied to artifact versions. Recheck this audit when the source repositories change.
