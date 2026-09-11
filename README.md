@@ -392,12 +392,12 @@ Updated **2026-09-11 UTC** · **11 public repositories** · **4 stars received**
 
 | Primary language | Repositories |
 | :--- | ---: |
+| Python | 3 |
 | Jupyter Notebook | 2 |
 | Kotlin | 2 |
-| Python | 2 |
 | TypeScript | 2 |
 | CSS | 1 |
-| Not classified | 2 |
+| Not classified | 1 |
 
 Language proportions count repositories with a GitHub-assigned primary language. They do not measure coding time, language bytes, or proficiency. Public owned repositories are included across the account; forks and private repositories are excluded.
 
