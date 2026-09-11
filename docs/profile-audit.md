@@ -15,7 +15,6 @@ The profile presents Ahmed Arfaoui as an **AI/ML Engineer** building agentic sys
 | 3 | [PitWall-ML](https://github.com/arfaouiahmed1/PitWall-ML) | Feature: predictive ML, uncertainty calibration, serving, simulation, and monitoring. |
 | 4 | [signalrank](https://github.com/arfaouiahmed1/signalrank) | Feature: focused information-retrieval workbench with explicit ablations and relevance metrics. |
 | 5 | [Data-Farmers-FarmWise-4DS3](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3) | Dedicated agricultural data science case study: YOLOv8 segmentation, disease experiments, tabular modeling, Gemma/FAISS RAG, and two repository-linked videos. |
-| 6 | [pursivo](https://github.com/arfaouiahmed1/pursivo) | Supporting native Android engineering with Room persistence, evidence storage, and optional AI adapters; label alpha. |
 | — | RepForge | Omit from feature set: the ML engine still contains TODO inference and simulated calibration. |
 | 7 | [NewBot-AI](https://github.com/arfaouiahmed1/NewBot-AI) | Include as NEWSBOT AI: earlier NLP work documented in the portfolio, plus a public React/TypeScript prototype with a real Gemini streaming/search-grounding integration. Distinguish sample dashboard data from model outputs. |
 | — | Stage | Omit: placeholder repository material. |
@@ -68,7 +67,6 @@ The README labels these as résumé/project-evaluation outcomes and does not gen
 - **FarmWise:** expanded beyond the initial deployment-only review. Inspected the weed-detection notebook (YOLOv8l-seg training/fine-tuning, dataset checks, prediction comparisons, ONNX export); the smaller disease notebook (ResNet experiments); the Gemma treatment notebook (Sentence Transformers, FAISS, retrieved disease/treatment records, RAG-versus-LLM cosine-similarity experiment); and Random Forest crop / CatBoost yield scripts. The root README and user's clarification support YOLOv8 plant-disease work. Mistral is supplied in the user's project description; the inspected committed RAG notebook specifically uses Gemma. No real-time FPS, accuracy, mAP, crop-yield improvement, or RAG-document-count claims are added without aligned evaluation evidence. Deployment fallbacks remain relevant to reliability claims.
 - **NEWSBOT AI:** corrected the initial omission. `App.tsx`, `constants.ts`, `pages/Dashboard.tsx`, `pages/DeepDive.tsx`, and `components/GlobalAssistant.tsx` establish the public implementation: React/TypeScript views and sample datasets, plus Gemini chat creation, streamed responses, Google Search tooling, and grounding-source rendering. The portfolio's `app/content.ts` describes FAISS, FLAN-T5, Mistral, LoRA, LIME/SHAP, sentiment/bias analysis, and forecasting. These broader capabilities are attributed to the portfolio case study, not claimed to be implemented in the public UI repository.
 - **Personal portfolio:** inspected `package.json`, `app/projects/page.tsx`, `app/content.ts`, and `app/components/MotionSystem.tsx`. Next.js/React/TypeScript, case-study pages, photography assets, scroll-driven CSS progress, IntersectionObserver reveals, and reduced-motion/progressive-enhancement paths are present. No three.js, GSAP, or Framer Motion claim is made.
-- **Pursivo:** Kotlin / Compose, Room, evidence vault, and provider-backed grounding adapters are implemented; grounding prompts are not presented as a guarantee against fabrication.
 - **RepForge:** on-device ML and calibration remain incomplete/simulated; omitted from the main narrative.
 
 ## Design and maintenance
@@ -85,7 +83,6 @@ The README labels these as résumé/project-evaluation outcomes and does not gen
 - [PitWall-ML](https://github.com/arfaouiahmed1/PitWall-ML)
 - [signalrank](https://github.com/arfaouiahmed1/signalrank)
 - [Data-Farmers-FarmWise-4DS3](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3)
-- [pursivo](https://github.com/arfaouiahmed1/pursivo)
 - [ahmed-arfaoui-portfolio](https://github.com/arfaouiahmed1/ahmed-arfaoui-portfolio)
 - Supplied résumé PDF, renamed in the profile repository as `resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf`.
 

@@ -1,0 +1,42 @@
+name: Refresh GitHub profile stats
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_github_stats.py
+      - .github/workflows/github-stats.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install raster renderer
+        run: python -m pip install 'Pillow>=12,<13'
+      - name: Refresh public repository snapshot and PNGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_github_stats.py
+      - name: Commit refreshed stats
+        run: |
+          git add README.md docs/github-stats.json assets/github-stats-light.png assets/github-stats-dark.png
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh public GitHub stats'
+          git push origin HEAD:main

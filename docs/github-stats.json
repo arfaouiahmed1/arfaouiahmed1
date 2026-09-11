@@ -1,0 +1,105 @@
+{
+  "owner": "arfaouiahmed1",
+  "observed_on": "2026-09-11",
+  "repos": [
+    {
+      "name": "Data-Farmers-FarmWise-4DS3",
+      "url": "https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3",
+      "private": false,
+      "fork": false,
+      "stars": 2,
+      "forks": 0,
+      "language": "Jupyter Notebook"
+    },
+    {
+      "name": "RepForge",
+      "url": "https://github.com/arfaouiahmed1/RepForge",
+      "private": false,
+      "fork": false,
+      "stars": 1,
+      "forks": 0,
+      "language": "Kotlin"
+    },
+    {
+      "name": "pursivo",
+      "url": "https://github.com/arfaouiahmed1/pursivo",
+      "private": false,
+      "fork": false,
+      "stars": 1,
+      "forks": 0,
+      "language": "Kotlin"
+    },
+    {
+      "name": "ahmed-arfaoui-portfolio",
+      "url": "https://github.com/arfaouiahmed1/ahmed-arfaoui-portfolio",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "CSS"
+    },
+    {
+      "name": "arfaouiahmed1",
+      "url": "https://github.com/arfaouiahmed1/arfaouiahmed1",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": null
+    },
+    {
+      "name": "huntflow",
+      "url": "https://github.com/arfaouiahmed1/huntflow",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript"
+    },
+    {
+      "name": "signalrank",
+      "url": "https://github.com/arfaouiahmed1/signalrank",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python"
+    },
+    {
+      "name": "NewBot-AI",
+      "url": "https://github.com/arfaouiahmed1/NewBot-AI",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript"
+    },
+    {
+      "name": "Open-Web-Catcher",
+      "url": "https://github.com/arfaouiahmed1/Open-Web-Catcher",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python"
+    },
+    {
+      "name": "Stage",
+      "url": "https://github.com/arfaouiahmed1/Stage",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": null
+    },
+    {
+      "name": "PitWall-ML",
+      "url": "https://github.com/arfaouiahmed1/PitWall-ML",
+      "private": false,
+      "fork": false,
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook"
+    }
+  ]
+}

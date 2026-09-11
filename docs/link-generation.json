@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "assets/links/linkedin.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-6081abed-3e39-4463-87d7-3856620372a8.png"
+    ],
+    "original_sha256": "7bfc46cf206c7c290e094fc3953cfd319b4a21e7c3759d98b6e8ae7813b5a9bb",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "48b45be5f65f16748d90b4044af3dfede963a73b8cb5a53b7c3379e620221610"
+  },
+  {
+    "asset": "assets/links/email.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-e4344011-b7a5-4ea0-b772-d79c43149d23.png"
+    ],
+    "original_sha256": "19371d73a1615116bd80eb69afa7f7c85900a379a53815c67bce4bb2e2772819",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "a2f36f8ab0415614d51f9d8d265ee6505696b22b9c5b9d8927e67e66b880cda0"
+  },
+  {
+    "asset": "assets/links/portfolio.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-68ec13c3-4011-4ec2-b5b6-7d6fa084023e.png"
+    ],
+    "original_sha256": "4db55029637f0fe8c7365b3ed2c8814216af4d3023f583b235fcee8ae13817a2",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "ddb86f3f6bfd24a56f1febd8b71ffe010133c043817090358b396e978714c844"
+  },
+  {
+    "asset": "assets/links/demo.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-80d7cc8c-0242-45cb-af42-5741ee4f1117.png"
+    ],
+    "original_sha256": "0717047034b6597d347e6ccc266ddb566dcc124c1df1de2794f5168f20ce6ae2",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "5f0627650f877641058fac620d3e1e4a0e6dd878531fc7cfc4da17e2df372680"
+  },
+  {
+    "asset": "assets/links/resume.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-95fc9300-e54e-48b8-af52-2e946ad89e59.png"
+    ],
+    "original_sha256": "2e44ecf59354879dad907bd9bae333ecd0b57ea2c3cc65b9240348ef9434e8c9",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "4d01e4418e3759075d3fa0c24638f484c0cef1960da2e660ad72d28ff411b686"
+  },
+  {
+    "asset": "assets/links/source.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-bfb726be-6311-4001-822f-33c07dac3d7e.png"
+    ],
+    "original_sha256": "80fceb9d68254169eebc6950c031d8a88b921790fe6a286f1955fa9a1afe07c0",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "07e54b3f731694f03a1288a075197cabafc708c3e60f2df861cccbd8ff9b2904"
+  },
+  {
+    "asset": "assets/links/video.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-52692cff-7bbf-47f0-9714-017870e43370.png"
+    ],
+    "original_sha256": "4b6920a9daecc738655e88c4cf21c8367bffa1cc53dd9eb11c92606d3e237b99",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "ec14c1b1e5568d754d2f65687638e8ffcaedba4767aed2dfbdd3e142f435abfd"
+  },
+  {
+    "asset": "assets/links/photography.png",
+    "method": "OpenAI image generation",
+    "reference": "assets/header-dither.png",
+    "generated_source": [
+      "generated_images/exec-7dc6b1be-764b-4a7e-9edf-05b01869a627.png"
+    ],
+    "original_sha256": "3393f38c7f9dc188dc644f8bac9991d4a2c52e849b208b1c24b10d9876444439",
+    "design": "Wide ivory paper banner; ultra-condensed charcoal typography, recognizable destination icon, cobalt detail, vermilion marker, stochastic dithering, northeast arrow.",
+    "published_sha256": "8553eab3cae0ba864c3393953093171d6e7eb0a763885f3f9aeef6510a1fdb78"
+  }
+]

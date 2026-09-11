@@ -12,9 +12,14 @@ My earlier work spans **agricultural computer vision, tabular modeling, and NLP*
 
 My work moves across **Python and TypeScript**, from data ingestion and model evaluation to LangGraph orchestration, FastAPI services, SQL persistence, monitoring, and the interfaces people use to inspect a run.
 
-**[Portfolio](https://ahmed-arfaoui-portfolio.vercel.app)** · **[LinkedIn](https://www.linkedin.com/in/ahmedarfaoui99/)** · **[Email](mailto:ahmedarfaoui2000@gmail.com)** · **[Download résumé](resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf)**
+<p>
+  <a href="https://ahmed-arfaoui-portfolio.vercel.app"><img src="assets/links/portfolio.png" alt="Portfolio" width="190"></a>
+  <a href="https://www.linkedin.com/in/ahmedarfaoui99/"><img src="assets/links/linkedin.png" alt="Linkedin" width="190"></a>
+  <a href="resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf"><img src="assets/links/resume.png" alt="Download résumé" width="190"></a>
+  <a href="mailto:ahmedarfaoui2000@gmail.com"><img src="assets/links/email.png" alt="Email" width="190"></a>
+</p>
 
-[My journey](#00--my-journey) · [Internships](#01--internships) · [Core systems](#02--core-systems) · [Evidence](#03--evidence-over-decoration) · [Earlier projects](#04--earlier-data-science--creative-engineering) · [Technical focus](#06--technical-focus)
+[My journey](#00--my-journey) · [Internships](#01--internships) · [Core systems](#02--core-systems) · [Evidence](#03--evidence-over-decoration) · [Earlier projects](#04--earlier-data-science--creative-engineering) · [Technical focus](#06--technical-focus) · [GitHub stats](#07--github-stats)
 
 ## 00 / My journey
 
@@ -87,6 +92,10 @@ Worked with multi-source sales data across ingestion, cleaning, transformation, 
 <p align="center"><sub>FIELD NOTE / INPUT → EVIDENCE → DECISION → TRACE</sub></p>
 
 ### [Open Web Catcher](https://github.com/arfaouiahmed1/Open-Web-Catcher)
+
+<p>
+  <a href="https://github.com/arfaouiahmed1/Open-Web-Catcher"><img src="assets/links/source.png" alt="Open Web Catcher source code" width="190"></a>
+</p>
 **Browser agents that collect evidence from difficult web surfaces.**
 
 The system coordinates role-scoped specialists for classification, landing pages, hosting pages, and embedded players. A LangGraph orchestrator controls handoffs and budgets; Playwright MCP operates an isolated browser context; FastAPI and PostgreSQL persist the run; a Next.js console makes tool calls and evidence inspectable.
@@ -117,6 +126,10 @@ flowchart TD
 `Python` `LangGraph` `Playwright MCP` `FastAPI` `PostgreSQL` `Next.js`
 
 ### [HuntFlow](https://github.com/arfaouiahmed1/huntflow)
+
+<p>
+  <a href="https://github.com/arfaouiahmed1/huntflow"><img src="assets/links/source.png" alt="HuntFlow source code" width="190"></a>
+</p>
 **A local-first application workflow with retrieval and human gates.**
 
 HuntFlow connects job discovery, candidate evidence, document drafting, and application tracking. ATS connectors use per-host rate limits and circuit breakers; bucketed deduplication preserves provenance; LangGraph workflows checkpoint in SQLite; the evidence vault combines BM25 and vector retrieval with reciprocal rank fusion before a human review step.
@@ -147,6 +160,11 @@ flowchart TD
 `TypeScript` `Next.js` `LangGraph` `SQLite` `BM25` `Vector retrieval`
 
 ### [PitWall ML](https://github.com/arfaouiahmed1/PitWall-ML)
+
+<p>
+  <a href="https://github.com/arfaouiahmed1/PitWall-ML"><img src="assets/links/source.png" alt="PitWall ML source code" width="190"></a>
+  <a href="https://arfaouiahmed1.github.io/PitWall-ML/"><img src="assets/links/demo.png" alt="PitWall ML live demo" width="190"></a>
+</p>
 **Lap-time forecasting with calibrated uncertainty and a strategy simulator.**
 
 The project combines race-data ingestion, Polars feature pipelines, LightGBM pace models, a physics-plus-residual path, temporal/session splits, conformal calibration, FastAPI/WebSocket serving, and Prometheus/Grafana drift monitoring.
@@ -180,6 +198,11 @@ flowchart TD
 `Python` `Polars` `LightGBM` `FastAPI` `WebSockets` `Prometheus`
 
 ### [SignalRank](https://github.com/arfaouiahmed1/signalrank)
+
+<p>
+  <a href="https://github.com/arfaouiahmed1/signalrank"><img src="assets/links/source.png" alt="SignalRank source code" width="190"></a>
+  <a href="https://arfaouiahmed1.github.io/signalrank/"><img src="assets/links/demo.png" alt="SignalRank live demo" width="190"></a>
+</p>
 **A retrieval and ranking workbench for matching CVs to jobs.**
 
 SignalRank keeps the search stages explicit: BM25 and PostgreSQL full-text retrieval sit beside pgvector search; reciprocal rank fusion combines candidate lists; an optional cross-encoder can rerank them; precision, recall, MRR, and nDCG make the trade-offs measurable.
@@ -265,7 +288,15 @@ FarmWise brings several data science problems into the same agricultural platfor
 
 The breadth here is the engineering story: preparing data, training different model families, inspecting predictions, and bringing the results into a shared application. The RAG notebook's similarity comparison is an experiment, not a measure of treatment correctness.
 
-**[Product video](https://youtu.be/Dbv44AOnYsQ)** · **[Technical demo](https://youtu.be/bAqBds2t3mg)** · [Training notebooks](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Notebooks) · [Predictive-model code](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Models/ml_models)
+<p>
+  <a href="https://youtu.be/Dbv44AOnYsQ"><img src="assets/links/video.png" alt="FarmWise product video" width="190"></a>
+  <a href="https://youtu.be/bAqBds2t3mg"><img src="assets/links/video.png" alt="FarmWise technical demo" width="190"></a>
+  <a href="https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3"><img src="assets/links/source.png" alt="FarmWise source code" width="190"></a>
+</p>
+
+<sub>Videos: product overview · technical demo</sub>
+
+[Training notebooks](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Notebooks) · [Predictive-model code](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Models/ml_models)
 
 `Python` `YOLOv8` `PyTorch` `scikit-learn` `CatBoost` `Gemma` `FAISS` `Next.js` `Django`
 
@@ -276,7 +307,12 @@ My [portfolio case study](https://ahmed-arfaoui-portfolio.vercel.app/projects) d
 
 The public repository contains the **React / TypeScript** application: a news dashboard, article deep dives, alternative-perspective views, trends, and scenario displays. Its assistant integrates **Gemini**, streams responses, enables **Google Search grounding**, and renders the returned source links. The dashboard articles and forecast scenarios use sample data; the broader training and explainability work is documented in the portfolio rather than shipped in this repository.
 
-[Public application code](https://github.com/arfaouiahmed1/NewBot-AI) · [Assistant implementation](https://github.com/arfaouiahmed1/NewBot-AI/blob/main/components/GlobalAssistant.tsx) · [Project case study](https://ahmed-arfaoui-portfolio.vercel.app/projects)
+<p>
+  <a href="https://github.com/arfaouiahmed1/NewBot-AI"><img src="assets/links/source.png" alt="NewsBot source code" width="190"></a>
+  <a href="https://ahmed-arfaoui-portfolio.vercel.app/projects"><img src="assets/links/portfolio.png" alt="NewsBot case study" width="190"></a>
+</p>
+
+[Assistant implementation](https://github.com/arfaouiahmed1/NewBot-AI/blob/main/components/GlobalAssistant.tsx)
 
 `React` `TypeScript` `Gemini API` `Streaming responses` `Search grounding`
 
@@ -285,11 +321,11 @@ The public repository contains the **React / TypeScript** application: a news da
 
 Built with **Next.js, React, and TypeScript**, the portfolio combines project case studies, internship experience, a personal journey, and a photography gallery. Custom responsive layouts and a scroll-driven motion system give the site its visual character; reduced-motion support and progressive enhancement keep the content accessible when motion is disabled or unavailable.
 
-[Visit portfolio](https://ahmed-arfaoui-portfolio.vercel.app) · [Photography](https://ahmed-arfaoui-portfolio.vercel.app/photography) · [Source](https://github.com/arfaouiahmed1/ahmed-arfaoui-portfolio)
-
-### [Pursivo](https://github.com/arfaouiahmed1/pursivo) · Native Android
-
-An application tracker built with **Kotlin / Compose**, **Room** persistence, an evidence vault, and optional provider-backed AI adapters. An alpha foundation that extends the portfolio into native mobile interfaces and local data ownership. [Architecture](https://github.com/arfaouiahmed1/pursivo/blob/main/docs/architecture.md).
+<p>
+  <a href="https://ahmed-arfaoui-portfolio.vercel.app"><img src="assets/links/portfolio.png" alt="Portfolio" width="190"></a>
+  <a href="https://ahmed-arfaoui-portfolio.vercel.app/photography"><img src="assets/links/photography.png" alt="Photography" width="190"></a>
+  <a href="https://github.com/arfaouiahmed1/ahmed-arfaoui-portfolio"><img src="assets/links/source.png" alt="Source" width="190"></a>
+</p>
 
 ## 05 / How the systems fit together
 
@@ -318,6 +354,19 @@ That loop appears in different forms across the portfolio:
   <img src="assets/evaluation-light.png" alt="Engineering Judgment — contrasting dithered specimens within a common frame, illustrating comparison and inspection." width="100%">
 </picture>
 
+<p>
+  <img src="assets/icons/python.png" alt="Python" title="Python" width="64" height="64">
+  <img src="assets/icons/typescript.png" alt="TypeScript" title="TypeScript" width="64" height="64">
+  <img src="assets/icons/pytorch.png" alt="PyTorch" title="PyTorch" width="64" height="64">
+  <img src="assets/icons/scikitlearn.png" alt="scikit-learn" title="scikit-learn" width="64" height="64">
+  <img src="assets/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="64" height="64">
+  <img src="assets/icons/fastapi.png" alt="FastAPI" title="FastAPI" width="64" height="64">
+  <img src="assets/icons/docker.png" alt="Docker" title="Docker" width="64" height="64">
+  <img src="assets/icons/nextjs.png" alt="Next.js" title="Next.js" width="64" height="64">
+</p>
+
+Python · TypeScript · PyTorch · scikit-learn · PostgreSQL · FastAPI · Docker · Next.js
+
 | Area | What I actually build |
 | :--- | :--- |
 | **Agent systems** | LangGraph state machines, bounded handoffs, role-scoped tools, browser automation, checkpoints, cancellation, human approval |
@@ -328,10 +377,44 @@ That loop appears in different forms across the portfolio:
 | **Backend & delivery** | FastAPI, PostgreSQL / SQLite, Docker, WebSockets, Azure Service Bus, Prometheus/Grafana, Next.js / React interfaces |
 | **Engineering quality** | Evidence records, reproducible artifacts, leakage tests, rate limits, circuit breakers, fallbacks, cost and token telemetry |
 
-## 07 / Current direction
+## 07 / GitHub stats
+
+<!-- github-stats:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.png">
+  <img src="assets/github-stats-light.png" alt="GitHub public repository totals and primary-language distribution; exact figures follow." width="100%">
+</picture>
+
+<details>
+<summary>Stats, scope, and source</summary>
+
+Updated **2026-09-11 UTC** · **11 public repositories** · **4 stars received** · **5 primary languages**.
+
+| Primary language | Repositories |
+| :--- | ---: |
+| Jupyter Notebook | 2 |
+| Kotlin | 2 |
+| Python | 2 |
+| TypeScript | 2 |
+| CSS | 1 |
+| Not classified | 2 |
+
+Language proportions count repositories with a GitHub-assigned primary language. They do not measure coding time, language bytes, or proficiency. Public owned repositories are included across the account; forks and private repositories are excluded.
+
+[Source snapshot](docs/github-stats.json) · [Refresh workflow](.github/workflows/github-stats.yml)
+
+</details>
+<!-- github-stats:end -->
+
+## 08 / Current direction
 
 I am looking for AI/ML engineering work where the interesting problems are at the boundary: agents that need guardrails, retrieval that needs honest evaluation, and models that have to become dependable services.
 
-**[Start with the portfolio](https://ahmed-arfaoui-portfolio.vercel.app)** · **[Read the résumé](resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf)** · **[Connect on LinkedIn](https://www.linkedin.com/in/ahmedarfaoui99/)**
+<p>
+  <a href="https://ahmed-arfaoui-portfolio.vercel.app"><img src="assets/links/portfolio.png" alt="Portfolio" width="190"></a>
+  <a href="https://www.linkedin.com/in/ahmedarfaoui99/"><img src="assets/links/linkedin.png" alt="Linkedin" width="190"></a>
+  <a href="resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf"><img src="assets/links/resume.png" alt="Download résumé" width="190"></a>
+  <a href="mailto:ahmedarfaoui2000@gmail.com"><img src="assets/links/email.png" alt="Email" width="190"></a>
+</p>
 
 <sub>Visual system: raster dither-print geometry, restrained cobalt / vermilion accents, condensed display type, and a shared editorial grid. All project claims above are grounded in the linked repositories, committed artifacts, résumé, or portfolio source.</sub>

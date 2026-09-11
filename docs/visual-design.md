@@ -39,3 +39,13 @@ The PitWall charts report the same committed champion artifact: 3,931 test laps,
 `image-generation.json` records the built-in generation prompt for every replacement, the generated source filename, and the published PNG hash. PNGs are resized and palette-optimized for GitHub after generation; their composition is not reconstructed with a vector renderer.
 
 Preserve the approved masthead when revising the set. Recheck `visual-data.json`, `profile-audit.md`, and the linked source repositories before changing technical claims. Keep the 22 replacement filenames stable and maintain both themes.
+
+## Navigation and GitHub metadata — 2026-09-11
+
+Eight individually generated PNG link banners extend the masthead typography to portfolio, LinkedIn, résumé, email, source code, live demos, video, and photography. See `link-generation.json` for source-image hashes and provenance. Primary calls to action use these reusable banners, with descriptive alternative text; supporting evidence links remain selectable text.
+
+Eight technology tiles use the official Devicon glyphs, rendered as PNGs on the same ivory field. Sources: `https://github.com/devicons/devicon/tree/master/icons/{python,typescript,pytorch,scikitlearn,postgresql,fastapi,docker,nextjs}`. Devicon is MIT licensed; its license is retained in `devicon-LICENSE.txt`. Brand colors help recognition while the tile framing follows the profile palette.
+
+Two deterministic light/dark stats PNGs report public owned repository totals, stars received, and primary-language repository counts. They are drawn from the GitHub REST snapshot in `github-stats.json`, never image-generated. The weekly GitHub Actions workflow refreshes the snapshot, both cards, and accessible README table. Language proportions exclude unclassified repositories from the denominator and do not claim proficiency or coding time. Accountwide totals include all public owned repositories, whether or not featured on the profile.
+
+The complete inventory is now 42 PNGs: the original 24 editorial assets, eight link banners, eight technology tiles, and two stats cards. The approved name masthead remains unchanged. No SVG assets or animations are shipped.
