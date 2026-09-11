@@ -1,40 +1,41 @@
-# Visual system and source notes
+# Dither editorial system
 
-## Layout
+Updated 2026-09-10. The approved `assets/header-dither.png` masthead is preserved unchanged. Its condensed lettering, ivory paper, charcoal ink, cobalt traces, and restrained vermilion accents establish the visual identity throughout the profile.
 
-Keep the main page readable as a professional introduction: one open architecture diagram, expandable subsystem diagrams, an evaluation figure, a dated project chronology and concise technical focus. The original geometric AA header anchors the identity.
+## Artwork and typography
 
-Palette: warm paper / graphite with burnt orange as the only chromatic accent. Light and dark SVGs use matching typography and geometry. Diagram flow markers animate over five seconds; they illustrate data/request direction and are not live telemetry. `prefers-reduced-motion: reduce` disables movement. Static rendering retains every node, arrow and caption.
+The 22 light/dark replacement PNGs are individually created with the built-in image-generation tool, using the approved masthead as a visual reference. They are original raster compositions, not conversions of the old SVG plates. Each pair shares a subject and type hierarchy, with separate light and dark compositions. The paper grain and stochastic dithering belong to the artwork; no animation, remote font, or widget is required.
 
-## Architecture sources
+Display lettering is deliberately condensed and monumental. Small monospaced labels describe each theme. Exact dates, metrics, project claims, and links stay in Markdown so they remain selectable and readable on small screens.
 
-| Asset | Scope | Evidence |
-| --- | --- | --- |
-| architecture-owc | Simplified console, API, SQL, agent and browser subsystem relationships | Open-Web-Catcher: docs/wiki/Architecture.md; src/agents/orchestrator.py; tools/playwright/ |
-| architecture-huntflow | Source ingestion and evidence-fed supervised workflows | huntflow: docs/ARCHITECTURE.md; src/lib/vault/search.ts; src/lib/agents/checkpointer.ts; scrapling-agent/rate_limiter.py |
-| architecture-pitwall | Data/features, modeling, held-out calibration, forecast/simulation and serving | PitWall-ML: src/pitwall/models/pace/hybrid_model.py; src/pitwall/evaluation/calibration.py; src/pitwall/simulation/engine.py; README.md |
-| architecture-signalrank | Lexical/vector branching, RRF, optional cross-encoder and ranked output | signalrank: backend/app/retrieval/bm25.py; hybrid.py; backend/app/rerank/cross_encoder.py |
+## Asset inventory
 
-These are subsystem diagrams, not exhaustive runtime traces. Return messages, authentication and most persistence writes are omitted for readability. The PitWall diagram represents model pipeline capabilities; its newer hybrid model does not inherit the older champion artifact's metrics.
+| Pair | Editorial subject | Role |
+| :--- | :--- | :--- |
+| `header-{light,dark}.png` | Ahmed Arfaoui and a computational knot | Companion mastheads; the original approved masthead remains the README lead |
+| `journey-{light,dark}.png` | Fragmented ribbon becoming an open geometric loop | Personal journey section |
+| `internships-{light,dark}.png` | Four distinct computational specimens | Four internship disciplines |
+| `systems-{light,dark}.png` | Suspended planes, chain, surface, and sieve | Core systems overview |
+| `evidence-{light,dark}.png` | Prism and open frames | Measurement and calibration |
+| `architecture-owc-{light,dark}.png` | Floating pages and globe | Browser-intelligence project artwork |
+| `architecture-huntflow-{light,dark}.png` | Folded chain and document layers | Human-guided workflow project artwork |
+| `architecture-pitwall-{light,dark}.png` | Aerodynamic ribbon and particulate field | Forecasting and uncertainty project artwork |
+| `architecture-signalrank-{light,dark}.png` | Particles and perforated plates | Retrieval and relevance project artwork |
+| `timeline-{light,dark}.png` | Continuous strand becoming an engineered lattice | The common thread across the projects; distinct from the journey artwork |
+| `evaluation-{light,dark}.png` | Contrasting specimens inside a common frame | Engineering judgment and technical focus |
 
-## Chart contract
+There are **22 replacement images**, plus the two retained generated assets `header-dither.png` and `dither-field.png`: **24 PNGs in total**. No SVG files are shipped. The README uses GitHub `<picture>` elements for theme selection.
 
-- Question: How does interval calibration change empirical coverage and mean interval width in the committed PitWall champion run?
-- Takeaway: coverage moves from 58.4% toward the nominal 80% target, reaching 78.6%; the intervals widen from 1.20 s to 2.26 s.
-- Family: comparison / benchmark. Two horizontal-bar panels, one for coverage (%), one for interval width (seconds). Both axes start at zero; a dashed reference marks 80% coverage.
-- Grain: raw versus calibrated outputs of a single recorded run, 3,931 test laps. These are the two complete conditions in the source, not a time series; no extra observations are invented.
-- Source: PitWall-ML/artifacts/champion/metrics.json, reviewed 2026-09-10. Corresponding splits are in artifacts/champion/splits.json. Raw fields are saved in visual-data.json. No training was rerun.
-- Renderer: Matplotlib SVG export, font glyphs converted to paths for consistent GitHub rendering. Direct labels and fixed row order supplement neutral/orange fill.
-- Surface: GitHub README image with theme-specific variants and a descriptive alt string carrying all values. Source artifact and calibration code are linked beside the figure.
+## Art versus engineering evidence
 
-## Timeline contract
+The project illustrations are conceptual covers. They do not encode architecture topology, dates, or measured data. The README supplies separate Mermaid architecture maps, Markdown experience tables, and sourced calibration charts. This keeps exact relationships and numbers independent of image generation.
 
-The six timestamps are GitHub REST repository `created_at` values, captured 2026-09-10 and stored in visual-data.json. Dates are UTC. They describe repository creation, not first work, launch, public release, completion, employment or graduation. Equal row spacing shows chronological order rather than elapsed duration.
+Architecture maps are compact views based on the repository audit. SignalRank explicitly branches into lexical and vector retrieval before reciprocal rank fusion. Optional reranking is shown as optional. The maps omit many internal calls and are not exhaustive runtime traces.
 
-## Rebuild
+The PitWall charts report the same committed champion artifact: 3,931 test laps, 58.4% raw and 78.6% calibrated coverage against a nominal 80% interval, with mean widths 1.20 s and 2.26 s. These are artifact-specific results, not claims about every model implementation in the repository. SignalRank retains its weak-label and single-CV evaluation caveat.
 
-Run `python scripts/build_visuals.py` from the repository after installing Matplotlib. This regenerates the eight architecture SVGs, two evaluation SVGs and two timeline SVGs. Headers remain separately editable SVGs. Review updated source facts before changing visual-data.json.
+## Provenance and maintenance
 
-## Verification
+`image-generation.json` records the built-in generation prompt for every replacement, the generated source filename, and the published PNG hash. PNGs are resized and palette-optimized for GitHub after generation; their composition is not reconstructed with a vector renderer.
 
-Parsed every SVG as XML and checked README image references and expandable-section balance. Inspected exported light/dark visual previews for labels, arrows and chart scales. Metrics were compared with repository artifacts and dates with repository metadata. No project test suite or training pipeline was rerun for this presentation change.
+Preserve the approved masthead when revising the set. Recheck `visual-data.json`, `profile-audit.md`, and the linked source repositories before changing technical claims. Keep the 22 replacement filenames stable and maintain both themes.

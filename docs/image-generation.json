@@ -1,0 +1,249 @@
+{
+  "created_on": "2026-09-10",
+  "reference": "assets/header-dither.png",
+  "method": "One built-in image generation per replacement; resized and palette-optimized PNG outputs.",
+  "assets": [
+    {
+      "file": "journey-light.png",
+      "prompt": "Use case: stylized-concept. Create a finished wide 3:1 editorial section artwork for Ahmed Arfaoui's GitHub engineering portfolio. Reference image is the approved masthead: match its ultra-condensed heavy black display typography, warm ivory paper, charcoal stochastic pixel dithering, cobalt orbital line and tiny vermilion accent. New composition, not the masthead repeated: a sculptural folded ribbon traverses from a rough fragmented form into a precise open geometric loop, metaphor for a personal engineering journey. Big exact title on left: \"MY JOURNEY\". Small exact label: \"FOUNDATIONS / DIRECTION / PRACTICE\". Artwork on right, generous negative space, disciplined margins, subtle registration marks. This is conceptual art, not a timeline or factual diagram: no dates, metrics, arrows, invented labels, logos or additional text. Crisp bitmap dither, tactile understated print aesthetic, professional and memorable. Light variant on warm ivory.",
+      "tool": "image_gen",
+      "source_file": "exec-28cf2930-3965-47e7-bbf8-e0815823e10a.png",
+      "source_sha256": "548bdcc844222408ccbdae5e47284c9fae22c9a056de9a9b6747b49a86ba15f9",
+      "published_sha256": "82aee0f774cc54a0edc22336b35d36e94779d2f167ab011288ce76d3688c76b2",
+      "width": 1400,
+      "height": 467,
+      "bytes": 377158
+    },
+    {
+      "file": "journey-dark.png",
+      "prompt": "Use case: stylized-concept. Create a finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. Reference image is the approved masthead: match its ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"MY JOURNEY\". Exact small monospaced label: \"FOUNDATIONS / DIRECTION / PRACTICE\". Composition: A fragmented sculptural ribbon resolving into a precise open geometric loop; a metaphor for changing direction and building a craft. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. This is conceptual editorial art, not a factual diagram: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable; keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-8685faf5-ca4d-4bb5-8b1f-32b87f618a6b.png",
+      "source_sha256": "0a2025633b2d024d64089d513148d5055c01f396fda9ca32807fba91ecf7e61c",
+      "published_sha256": "6ca5c2222d23929ce02e90631850d8851b6784c30116464c5046ba018e18641f",
+      "width": 1400,
+      "height": 467,
+      "bytes": 429587
+    },
+    {
+      "file": "internships-light.png",
+      "prompt": "Use case: stylized-concept. Create a finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. Reference image is the approved masthead: match its ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"IN PRACTICE\". Exact small monospaced label: \"FORECASTING / ML SERVICES / GENAI / AGENTS\". Composition: Four distinct sculptural specimens arranged on an editorial shelf: a pleated wave, layered cube, intertwined loop, open wireframe sphere. Vary texture and scale; no connecting arrows. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. This is conceptual editorial art, not a factual diagram: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable; keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-1ca9e59d-95ae-4da9-9497-99e9aa073cf9.png",
+      "source_sha256": "53337558892024f1389f8b6fa1571c92ce0c352cdf1ece0888a43d4f36416074",
+      "published_sha256": "f594dfd8b997cb72072be86ec2e527ee482512973cf623adb656c5185cb6bc0e",
+      "width": 1400,
+      "height": 467,
+      "bytes": 446778
+    },
+    {
+      "file": "internships-dark.png",
+      "prompt": "Use case: stylized-concept. Create a finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. Reference image is the approved masthead: match its ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"IN PRACTICE\". Exact small monospaced label: \"FORECASTING / ML SERVICES / GENAI / AGENTS\". Composition: Four distinct sculptural specimens arranged on an editorial shelf: a pleated wave, layered cube, intertwined loop, open wireframe sphere. Vary texture and scale; no connecting arrows. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. This is conceptual editorial art, not a factual diagram: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable; keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-78741081-7861-40c8-8982-baf9a2818157.png",
+      "source_sha256": "fbf818e18f4a4fac5e5ac11af43669031a140c3b835874fbb254305001bb3c51",
+      "published_sha256": "dc4e47334f6209b2b27881c1feec8a2827b0338ee586492acbf08c7aeca32737",
+      "width": 1400,
+      "height": 467,
+      "bytes": 395538
+    },
+    {
+      "file": "systems-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"CORE SYSTEMS\". Exact small monospaced label: \"AGENTS / WORKFLOWS / FORECASTS / RANKING\". Composition: A striking assemblage of four different computational sculptures: suspended planes, a linked chain, an undulating surface and layered sieve. Four specimens unified by a fine cobalt orbit. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-7ac2b380-4d76-4569-ab29-6a9642305bf7.png",
+      "source_sha256": "9e11a76c4413f43ca1b5c3bc73bf94cda6b786b81480dec8337b3ab2c0e280ad",
+      "published_sha256": "03237a4c75cdec601f251a983dd9e46e449796e8046ac62e26f17a462c082ded",
+      "width": 1400,
+      "height": 467,
+      "bytes": 413422
+    },
+    {
+      "file": "systems-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"CORE SYSTEMS\". Exact small monospaced label: \"AGENTS / WORKFLOWS / FORECASTS / RANKING\". Composition: A striking assemblage of four different computational sculptures: suspended planes, a linked chain, an undulating surface and layered sieve. Four specimens unified by a fine cobalt orbit. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-53e0caee-468c-471f-be99-ef02ba3740d0.png",
+      "source_sha256": "1e668975b04cc04da2bd14ae89c78144bc68e3888a3570bcec21774ab4d30781",
+      "published_sha256": "a8a32741638dedc2178a27f4039043c2e4ed126568e3ec2907f75afef9fafec1",
+      "width": 1400,
+      "height": 467,
+      "bytes": 384585
+    },
+    {
+      "file": "evidence-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"EVIDENCE\". Exact small monospaced label: \"MEASURE / CALIBRATE / QUESTION\". Composition: A sharply lit faceted prism casting a dithered shadow through two concentric open frames. Precision instruments as abstract sculpture, no graph axes or numerical measurements. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-f4fa43f5-b95d-4bae-a1a3-213c7c80e869.png",
+      "source_sha256": "442c6a4defb52b1625b8eb8b29b68d14769e7ab3e90c116406dca4e9a786dfdd",
+      "published_sha256": "53e6ced0835e4110c0f68589be3e003263a673b71f52665becc803b7aeb912fd",
+      "width": 1400,
+      "height": 467,
+      "bytes": 409871
+    },
+    {
+      "file": "evidence-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"EVIDENCE\". Exact small monospaced label: \"MEASURE / CALIBRATE / QUESTION\". Composition: A sharply lit faceted prism casting a dithered shadow through two concentric open frames. Precision instruments as abstract sculpture, no graph axes or numerical measurements. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-9423fccc-d42f-41ce-9106-dc04a7c0487f.png",
+      "source_sha256": "029625e0cc240822972339bf71943cd003be08893603138a1a45892bc27862d3",
+      "published_sha256": "ab9b42e102c2a7df2ce70133e57ec6436718f66cddf0e4546859b71b27684b9c",
+      "width": 1400,
+      "height": 467,
+      "bytes": 447754
+    },
+    {
+      "file": "architecture-owc-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"OPEN WEB CATCHER\". Exact small monospaced label: \"BROWSER INTELLIGENCE\". Composition: Exploded floating page-like sheets wrapped around an open wireframe globe, small particles collected in a faceted vessel. Artistic metaphor for browser evidence, no UI screenshots. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-a8d4a96c-3cd7-4811-a77a-20a542379b4b.png",
+      "source_sha256": "029eb40b62048f4fc6c7f2799ae2012c0737d91842f16ed3d09ee4e48ac5c74c",
+      "published_sha256": "c1b449e109eab5643c2ae0a193bc5f8a03b948a5e2450c5c307476719ffc9f1e",
+      "width": 1400,
+      "height": 467,
+      "bytes": 417218
+    },
+    {
+      "file": "architecture-owc-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"OPEN WEB CATCHER\". Exact small monospaced label: \"BROWSER INTELLIGENCE\". Composition: Exploded floating page-like sheets wrapped around an open wireframe globe, small particles collected in a faceted vessel. Artistic metaphor for browser evidence, no UI screenshots. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-312bcacd-5c90-439f-883b-911818ac159f.png",
+      "source_sha256": "a573f105e7a03ab001fc72fbca1a339b4e9bfafa5ac94864c068e61912e2493f",
+      "published_sha256": "ac671ae001409e117c75818723c370727c691247bfc36044d6f3f452d0cf0128",
+      "width": 1400,
+      "height": 467,
+      "bytes": 434068
+    },
+    {
+      "file": "architecture-huntflow-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"HUNTFLOW\". Exact small monospaced label: \"HUMAN-GUIDED WORKFLOWS\". Composition: A monumental interlocking chain of folded rectangular bands resting above layered document-like sheets, one discrete vermilion gate-like block. Sculptural and tangible. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-2f008aa7-bf54-4ce1-9b51-6525e657a421.png",
+      "source_sha256": "b5874d70ac5abde76022b94ec2d09975ecb926e37634d2ed86167e9a27a1581b",
+      "published_sha256": "02a15cf256405965fcf1d4e1a9d75edaa5dfae708aa2f1aeb13aaa161d08bf7e",
+      "width": 1400,
+      "height": 467,
+      "bytes": 419315
+    },
+    {
+      "file": "architecture-huntflow-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"HUNTFLOW\". Exact small monospaced label: \"HUMAN-GUIDED WORKFLOWS\". Composition: A monumental interlocking chain of folded rectangular bands resting above layered document-like sheets, one discrete vermilion gate-like block. Sculptural and tangible. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-a810768a-e86e-4e10-a2f8-af19c9de0016.png",
+      "source_sha256": "4c3ce470af06a44faae491b7d99b6dc98635f63fcbb91161e15fdf8cbe45f25b",
+      "published_sha256": "9693df6c98a01df5d60c5f80746e5c8103f1465b938ccb229cf1ea8b3ddb5174",
+      "width": 1400,
+      "height": 467,
+      "bytes": 506243
+    },
+    {
+      "file": "architecture-pitwall-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"PITWALL ML\". Exact small monospaced label: \"FORECASTS / UNCERTAINTY\". Composition: An aerodynamic ribbon bending over a subtle racing-apex curve, surrounding dotted uncertainty cloud and a thin cobalt contour. No actual car, no plotted data. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-aabd6a83-a272-4a26-9064-1a06737c8830.png",
+      "source_sha256": "51a7ad8f16684a96afa7f337a0e560024e7367619cffe81aeccd44d74703b7a1",
+      "published_sha256": "3ad03e06f0c0096d606134d70b8f8e79b3d46d35fc3b821c0e767e5119ab4130",
+      "width": 1400,
+      "height": 467,
+      "bytes": 465800
+    },
+    {
+      "file": "architecture-pitwall-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"PITWALL ML\". Exact small monospaced label: \"FORECASTS / UNCERTAINTY\". Composition: An aerodynamic ribbon bending over a subtle racing-apex curve, surrounding dotted uncertainty cloud and a thin cobalt contour. No actual car, no plotted data. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-d151444d-5f55-49ac-babb-1d487589b412.png",
+      "source_sha256": "6c348c2d200406ee168f61ba6f553a1cf4a077ce9c3628da68795664a3a6a21f",
+      "published_sha256": "d4587930a329f4a86d7e06bcef1e98e92b2aa2a1860a84a7c8bcf6e3c2c250ba",
+      "width": 1400,
+      "height": 467,
+      "bytes": 484282
+    },
+    {
+      "file": "architecture-signalrank-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"SIGNALRANK\". Exact small monospaced label: \"RETRIEVAL / RELEVANCE\". Composition: Two distinct streams of granular particles meeting a stack of perforated sculptural plates; a few large precise forms emerge above. Artistic metaphor for retrieval and ranking, no literal flowchart. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-c6c2de47-11be-415c-962b-3036e3d5b363.png",
+      "source_sha256": "e95415973f9b046afac568f7f0d8f739c63fedc3e807fe4994cb457741674fe8",
+      "published_sha256": "64394ed83a0b5016b665d2390317287071430322320e0d8aeaadb778d9754533",
+      "width": 1400,
+      "height": 467,
+      "bytes": 439218
+    },
+    {
+      "file": "architecture-signalrank-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"SIGNALRANK\". Exact small monospaced label: \"RETRIEVAL / RELEVANCE\". Composition: Two distinct streams of granular particles meeting a stack of perforated sculptural plates; a few large precise forms emerge above. Artistic metaphor for retrieval and ranking, no literal flowchart. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-7a92d8bc-e507-4f72-8eca-5bf45ecb6bd3.png",
+      "source_sha256": "660e99cc681adc7e60fa4bbf359e15d7e48e5ddcf87fd524ea472841e38404b6",
+      "published_sha256": "be75098247b6f6dff83f751451b0773d147497b740a3404b213f8b1c947902e4",
+      "width": 1400,
+      "height": 467,
+      "bytes": 417559
+    },
+    {
+      "file": "timeline-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"THE THROUGHLINE\". Exact small monospaced label: \"INPUT / EVIDENCE / DECISION / DELIVERY\". Composition: A single folded continuous strand passing through a rough particulate field and emerging as a crisp engineered lattice; varied densities and generous negative space. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-c72d8402-06ad-487c-bbf7-3e4c6d47376b.png",
+      "source_sha256": "f7388f49279296b6a7a75dd8a3aeb6617e77a2d2c5e5fc90f33a051f9dae601f",
+      "published_sha256": "42adcda22a230ca050a5868e75f7d094f835715d1e4298b8ad914ab66cdb281d",
+      "width": 1400,
+      "height": 467,
+      "bytes": 382591
+    },
+    {
+      "file": "timeline-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"THE THROUGHLINE\". Exact small monospaced label: \"INPUT / EVIDENCE / DECISION / DELIVERY\". Composition: A single folded continuous strand passing through a rough particulate field and emerging as a crisp engineered lattice; varied densities and generous negative space. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-b5a19350-29a7-455d-ab07-8e6b62fc7948.png",
+      "source_sha256": "5e40532408391336e91fb699be7807dd0356daf410f97781bda4266a8c5f1ffc",
+      "published_sha256": "fa959633c311a3c04d9bded1872b7558b36e4ecc9b4ce1feddbbdf3941173ce8",
+      "width": 1400,
+      "height": 467,
+      "bytes": 440468
+    },
+    {
+      "file": "evaluation-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"ENGINEERING JUDGMENT\". Exact small monospaced label: \"COMPARE / INSPECT / ITERATE\". Composition: Two contrasting dithered geometric specimens balanced within a shared open frame, one dense and one sparse, cobalt contour and a small vermilion marker. No literal scales or data chart. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-4756bcaa-5d48-4c94-a4ca-e5dd4a171d97.png",
+      "source_sha256": "55dd013a714d9678196348a0b897f97798e41aef65de0a9045f97c019abd7486",
+      "published_sha256": "1a35e185d7d35f3b2521d2c7745403f7c67db12e237a996d5f0287fcfd29acbf",
+      "width": 1400,
+      "height": 467,
+      "bytes": 393774
+    },
+    {
+      "file": "evaluation-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"ENGINEERING JUDGMENT\". Exact small monospaced label: \"COMPARE / INSPECT / ITERATE\". Composition: Two contrasting dithered geometric specimens balanced within a shared open frame, one dense and one sparse, cobalt contour and a small vermilion marker. No literal scales or data chart. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-dd534e92-21fb-4870-b574-4ac46b25d70a.png",
+      "source_sha256": "0f6b6d412ae8f9613d0465449a36bf3de7fa36d439d454bfb963ed9a682e38ed",
+      "published_sha256": "d3f8ac5b3ab925139c74a504747ebb727be07b65ff352a3b17cdf4eff6a33901",
+      "width": 1400,
+      "height": 467,
+      "bytes": 385175
+    },
+    {
+      "file": "header-light.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"AHMED ARFAOUI\". Exact small monospaced label: \"AI / ML ENGINEER\". Composition: Keep the identity of the approved masthead: monumental two-line name, a toroidal knot surrounding a faceted wireframe core, cobalt orbital trace, small vermilion square. Create a companion alternate masthead. Title on left, artwork on right; disciplined margins and subtle registration marks. Light variant: warm ivory paper, charcoal lettering and dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-a2b2df09-c38f-41fc-85b9-4978994dd5e2.png",
+      "source_sha256": "c8b57e32aab7ee205eac960e7c846d69205e500c2b64e2272a74cdcfb390596c",
+      "published_sha256": "925770338d96a201ba1fd9af388e4352e95a5bbbb15799741166933edb2a9291",
+      "width": 1400,
+      "height": 467,
+      "bytes": 387582
+    },
+    {
+      "file": "header-dark.png",
+      "prompt": "Use case: stylized-concept. Create one finished wide 3:1 editorial section artwork for Ahmed Arfaoui's engineering portfolio. The reference is the approved masthead: match ultra-condensed heavy display typography, stochastic pixel dithering and restrained print identity. Exact large title: \"AHMED ARFAOUI\". Exact small monospaced label: \"AI / ML ENGINEER\". Composition: Keep the identity of the approved masthead: monumental two-line name, a toroidal knot surrounding a faceted wireframe core, cobalt orbital trace, small vermilion square. Create a companion alternate masthead. Title on left, artwork on right; disciplined margins and subtle registration marks. Dark variant: deep charcoal paper, warm ivory lettering and pale dithered forms, cobalt blue and one small vermilion accent. Conceptual editorial artwork, NOT a factual architecture diagram or chart: no dates, metrics, axes, arrows, logos or extra text. Crisp tactile bitmap texture, professional and memorable. Keep all text inside safe margins.",
+      "tool": "image_gen",
+      "source_file": "exec-ce11982d-27f4-420b-81b5-7021f96defa8.png",
+      "source_sha256": "1073b01e62511da59d369b9a19169d997051dee6ff911900215df0ae5b54210d",
+      "published_sha256": "a9bf6254b183aa1602931b2c07c36c55a839682b7602d19b90e3ee8a17f54c87",
+      "width": 1400,
+      "height": 467,
+      "bytes": 418771
+    }
+  ]
+}
