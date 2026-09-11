@@ -8,11 +8,13 @@
 
 I build the parts of AI products that have to survive contact with the real world: browser agents that leave evidence, retrieval systems that can be evaluated, and predictive services that expose uncertainty instead of hiding it.
 
+My earlier work spans **agricultural computer vision, tabular modeling, and NLP**. Today, I bring that foundation into agents, retrieval, and predictive services.
+
 My work moves across **Python and TypeScript**, from data ingestion and model evaluation to LangGraph orchestration, FastAPI services, SQL persistence, monitoring, and the interfaces people use to inspect a run.
 
 **[Portfolio](https://ahmed-arfaoui-portfolio.vercel.app)** · **[LinkedIn](https://www.linkedin.com/in/ahmedarfaoui99/)** · **[Email](mailto:ahmedarfaoui2000@gmail.com)** · **[Download résumé](resume/Ahmed-Arfaoui-AI-ML-Engineer-Resume.pdf)**
 
-[My journey](#00--my-journey) · [Internships](#01--internships) · [Core systems](#02--core-systems) · [Evidence](#03--evidence-over-decoration) · [Technical focus](#06--technical-focus)
+[My journey](#00--my-journey) · [Internships](#01--internships) · [Core systems](#02--core-systems) · [Evidence](#03--evidence-over-decoration) · [Earlier projects](#04--earlier-data-science--creative-engineering) · [Technical focus](#06--technical-focus)
 
 ## 00 / My journey
 
@@ -249,14 +251,45 @@ Same committed champion artifact; **3,931 test laps**. Higher coverage comes wit
 
 </details>
 
-## 04 / Supporting work
+## 04 / Earlier data science & creative engineering
 
-| Project | Why it belongs in the field notes | Explore |
-| :--- | :--- | :--- |
-| **[FarmWise](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3)** | Collaborative agricultural application connecting crop-prediction and YOLO image-model endpoints to a Django REST / Next.js interface. | [Video demo](https://youtu.be/bAqBds2t3mg) |
-| **[Pursivo](https://github.com/arfaouiahmed1/pursivo)** | Kotlin / Compose Android application tracker with Room persistence, an evidence vault, and optional provider-backed AI adapters. | [Architecture](https://github.com/arfaouiahmed1/pursivo/blob/main/docs/architecture.md) |
+### [FarmWise](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3) · Agricultural data science
+**Computer vision, predictive models, and retrieval-assisted farming support in one collaborative project.**
 
-These projects widen the range of the portfolio without competing with the four systems above for the main narrative.
+FarmWise brings several data science problems into the same agricultural platform: identifying plant disease, separating weeds and crops in images, analyzing field imagery, recommending crops, predicting yield, and retrieving treatment guidance. The web experience connects **Next.js / TypeScript** with **Django REST**.
+
+- **Computer vision:** YOLOv8-based plant-disease detection and weed/crop segmentation, alongside ResNet disease-classification experiments and satellite-imagery work. The weed notebook trains **YOLOv8l-seg** and compares initial and fine-tuned predictions.
+- **Dataset engineering:** checks for corrupted images, image/label mismatches, empty annotations, segmentation geometry, and class imbalance; augmentation, prediction inspection, and ONNX export steps are part of the notebook workflow.
+- **Predictive modeling:** a scikit-learn **Random Forest** crop-classification pipeline and **CatBoost** yield-regression work, with a Random Forest fallback in the training script. Soil, weather, crop, and farming inputs connect the models to practical decisions.
+- **Farming support with RAG:** Mistral and Gemma work for agricultural assistance. The committed **Gemma** experiment embeds disease/treatment records with Sentence Transformers, retrieves them through **FAISS**, and compares retrieval-assisted answers with LLM-only answers.
+
+The breadth here is the engineering story: preparing data, training different model families, inspecting predictions, and bringing the results into a shared application. The RAG notebook's similarity comparison is an experiment, not a measure of treatment correctness.
+
+**[Product video](https://youtu.be/Dbv44AOnYsQ)** · **[Technical demo](https://youtu.be/bAqBds2t3mg)** · [Training notebooks](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Notebooks) · [Predictive-model code](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Models/ml_models)
+
+`Python` `YOLOv8` `PyTorch` `scikit-learn` `CatBoost` `Gemma` `FAISS` `Next.js` `Django`
+
+### [NEWSBOT AI](https://github.com/arfaouiahmed1/NewBot-AI) · News analysis & NLP
+**An earlier exploration of retrieval, language models, and explainable news analysis.**
+
+My [portfolio case study](https://ahmed-arfaoui-portfolio.vercel.app/projects) documents semantic search with **FAISS / Sentence Transformers**, **FLAN-T5 and Mistral**, LoRA fine-tuning, sentiment and bias analysis, forecasting, and explanations with **LIME / SHAP**.
+
+The public repository contains the **React / TypeScript** application: a news dashboard, article deep dives, alternative-perspective views, trends, and scenario displays. Its assistant integrates **Gemini**, streams responses, enables **Google Search grounding**, and renders the returned source links. The dashboard articles and forecast scenarios use sample data; the broader training and explainability work is documented in the portfolio rather than shipped in this repository.
+
+[Public application code](https://github.com/arfaouiahmed1/NewBot-AI) · [Assistant implementation](https://github.com/arfaouiahmed1/NewBot-AI/blob/main/components/GlobalAssistant.tsx) · [Project case study](https://ahmed-arfaoui-portfolio.vercel.app/projects)
+
+`React` `TypeScript` `Gemini API` `Streaming responses` `Search grounding`
+
+### [Personal portfolio](https://ahmed-arfaoui-portfolio.vercel.app) · Interface engineering & visual storytelling
+**A place for the projects, the route into engineering, and the photography alongside it.**
+
+Built with **Next.js, React, and TypeScript**, the portfolio combines project case studies, internship experience, a personal journey, and a photography gallery. Custom responsive layouts and a scroll-driven motion system give the site its visual character; reduced-motion support and progressive enhancement keep the content accessible when motion is disabled or unavailable.
+
+[Visit portfolio](https://ahmed-arfaoui-portfolio.vercel.app) · [Photography](https://ahmed-arfaoui-portfolio.vercel.app/photography) · [Source](https://github.com/arfaouiahmed1/ahmed-arfaoui-portfolio)
+
+### [Pursivo](https://github.com/arfaouiahmed1/pursivo) · Native Android
+
+An application tracker built with **Kotlin / Compose**, **Room** persistence, an evidence vault, and optional provider-backed AI adapters. An alpha foundation that extends the portfolio into native mobile interfaces and local data ownership. [Architecture](https://github.com/arfaouiahmed1/pursivo/blob/main/docs/architecture.md).
 
 ## 05 / How the systems fit together
 
@@ -275,6 +308,8 @@ That loop appears in different forms across the portfolio:
 - **HuntFlow:** job sources become provenance-preserving records, then retrieved context and reviewable drafts.
 - **SignalRank:** a CV becomes lexical/vector candidates, then a fused ranking with relevance metrics.
 - **PitWall ML:** timing data becomes temporally split features, then calibrated forecasts and simulation outputs.
+- **FarmWise:** field images and agricultural records become vision predictions, crop/yield estimates, and retrieved farming guidance.
+- **NEWSBOT AI:** news context becomes assistant responses with inspectable grounding sources.
 
 ## 06 / Technical focus
 
@@ -287,6 +322,8 @@ That loop appears in different forms across the portfolio:
 | :--- | :--- |
 | **Agent systems** | LangGraph state machines, bounded handoffs, role-scoped tools, browser automation, checkpoints, cancellation, human approval |
 | **Retrieval & ranking** | BM25, PostgreSQL full-text search, pgvector, reciprocal rank fusion, optional cross-encoders, ablations, relevance metrics |
+| **Computer vision & applied data science** | YOLOv8 segmentation, disease-classification experiments, image/annotation validation, augmentation, crop classification, yield regression |
+| **NLP & AI interfaces** | Retrieval-assisted question answering, streamed model responses, search grounding, source presentation, news-analysis interfaces |
 | **Predictive ML** | Polars feature engineering, LightGBM, physics-plus-residual models, temporal/session splits, conformal calibration, error analysis |
 | **Backend & delivery** | FastAPI, PostgreSQL / SQLite, Docker, WebSockets, Azure Service Bus, Prometheus/Grafana, Next.js / React interfaces |
 | **Engineering quality** | Evidence records, reproducible artifacts, leakage tests, rate limits, circuit breakers, fallbacks, cost and token telemetry |
