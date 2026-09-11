@@ -380,6 +380,8 @@ Python · TypeScript · PyTorch · scikit-learn · PostgreSQL · FastAPI · Dock
 ## 07 / GitHub stats
 
 <!-- github-stats:start -->
+<img src="assets/github-cover.png" alt="Code in Public — dithered open frames with a cobalt orbit, in the profile's condensed editorial typography." width="100%">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.png">
   <img src="assets/github-stats-light.png" alt="GitHub public repository totals and primary-language distribution; exact figures follow." width="100%">

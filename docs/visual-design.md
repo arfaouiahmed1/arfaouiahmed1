@@ -49,3 +49,7 @@ Eight technology tiles use the official Devicon glyphs, rendered as PNGs on the 
 Two deterministic light/dark stats PNGs report public owned repository totals, stars received, and primary-language repository counts. They are drawn from the GitHub REST snapshot in `github-stats.json`, never image-generated. The weekly GitHub Actions workflow refreshes the snapshot, both cards, and accessible README table. Language proportions exclude unclassified repositories from the denominator and do not claim proficiency or coding time. Accountwide totals include all public owned repositories, whether or not featured on the profile.
 
 The complete inventory is now 42 PNGs: the original 24 editorial assets, eight link banners, eight technology tiles, and two stats cards. The approved name masthead remains unchanged. No SVG assets or animations are shipped.
+
+### Stats editorial polish
+
+The GitHub section now opens with an individually generated `github-cover.png` illustration: monumental CODE IN PUBLIC lettering, interlocking dither frames, cobalt orbit, and vermilion marker. Generation used the approved name masthead as its reference. The numerical panel uses Nimbus Sans Narrow Bold display numerals, monospaced annotations, registration marks, and a restrained cobalt/charcoal bar chart. Each bar reports the same denominator and a zero-to-100% track. The workflow installs `fonts-urw-base35` to preserve this typography on refresh. Both numerical themes remain deterministic and accessible through the accompanying table. Total PNG inventory: 43.

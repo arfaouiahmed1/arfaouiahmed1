@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
+      - name: Install condensed display type
+        run: sudo apt-get update && sudo apt-get install -y fonts-urw-base35
       - name: Install raster renderer
         run: python -m pip install 'Pillow>=12,<13'
       - name: Refresh public repository snapshot and PNGs

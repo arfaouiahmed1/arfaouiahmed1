@@ -1,0 +1,6 @@
+{
+  "method": "built-in image generation",
+  "source": "exec-3fe22222-cab9-4c20-9b67-d4a98366c6c8.png",
+  "asset": "assets/github-cover.png",
+  "prompt": "Use case: ads-marketing. Create a wide 3:1 editorial section banner for Ahmed Arfaoui’s engineering portfolio. Reference image is the approved masthead: match its extremely bold ultra-condensed black display letters, ivory paper, black stochastic dither printing, cobalt orbital line and one vermilion square. Exact text only: \"CODE IN\" on first line and \"PUBLIC\" on second line. Left half dominated by monumental condensed typography. Right half: original sculptural composition of three interlocking open rectangular frames and a small dither sphere, representing inspectable open source code, with delicate cobalt orbit. Sophisticated print design, generous border, fine registration marks. No numbers, no graphs, no metrics, no additional words. Ivory #f2efe6 background. This is a conceptual cover, not a data chart."
+}
