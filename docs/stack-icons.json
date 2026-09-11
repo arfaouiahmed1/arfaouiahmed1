@@ -1,5 +1,5 @@
 {
-  "style": "Ivory raster tiles; Devicon official logos where available, original labelled monogram tiles otherwise",
+  "style": "Original project or published brand glyphs only; no generated monograms",
   "groups": {
     "languages": [
       "Python",
@@ -14,7 +14,6 @@
       "scikit-learn",
       "YOLOv8",
       "CatBoost",
-      "LightGBM",
       "Polars",
       "Gemma",
       "Mistral"
@@ -23,8 +22,6 @@
       "LangGraph",
       "LangChain",
       "Playwright",
-      "FAISS",
-      "Sentence Transformers",
       "Gemini API"
     ],
     "backend": [
@@ -32,7 +29,6 @@
       "Django REST",
       "PostgreSQL",
       "SQLite",
-      "pgvector",
       "Spring Boot"
     ],
     "delivery": [
@@ -63,7 +59,6 @@
     "pitwall": [
       "Python",
       "Polars",
-      "LightGBM",
       "FastAPI",
       "Prometheus",
       "Grafana"
@@ -72,8 +67,6 @@
       "Python",
       "FastAPI",
       "PostgreSQL",
-      "pgvector",
-      "Sentence Transformers",
       "React"
     ],
     "farmwise": [
@@ -83,7 +76,6 @@
       "scikit-learn",
       "CatBoost",
       "Gemma",
-      "FAISS",
       "Django REST"
     ],
     "newsbot": [
@@ -98,18 +90,17 @@
       "Node.js"
     ]
   },
-  "monograms": [
-    "YOLOv8",
-    "CatBoost",
+  "text_only": [
     "LightGBM",
-    "Polars",
-    "Gemma",
-    "Mistral",
-    "LangGraph",
-    "LangChain",
     "FAISS",
     "Sentence Transformers",
-    "Gemini API",
     "pgvector"
-  ]
+  ],
+  "sources": {
+    "LangChain, LangGraph, Gemma, Gemini, Mistral": "https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg/icons",
+    "CatBoost": "https://github.com/catboost/catboost/blob/master/logo/catboost.png",
+    "Polars": "https://github.com/pola-rs/polars/blob/main/docs/source/_build/assets/logo.png",
+    "YOLOv8 (Ultralytics mark)": "https://github.com/ultralytics/assets/blob/main/logo/Ultralytics-logomark-color.png",
+    "Other glyphs": "https://github.com/devicons/devicon"
+  }
 }

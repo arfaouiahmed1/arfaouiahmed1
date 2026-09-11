@@ -57,3 +57,8 @@ The GitHub section now opens with an individually generated `github-cover.png` i
 ### Complete stack icon rows
 
 The toolkit now covers 34 named technologies across five grouped rows and seven project-specific rows. All 12 new assets are static PNGs in `assets/stacks/`, with readable labels and descriptive alt text. Devicon provides official glyphs under the retained MIT license. Technologies without a supplied Devicon glyph use original typographic identifiers rather than invented official logos. See `stack-icons.json` for the inventory. Node.js is verified against HuntFlow's Node 22 engine requirement. Project text retains methodological concepts such as BM25, vector retrieval, and streaming separately from tool identities. Total PNG inventory: 55.
+
+
+### Logo correction and stats simplification
+
+Removed all placeholder monograms. Added published brand glyphs for LangChain, LangGraph, Gemini, Gemma, Mistral, Polars, CatBoost, and Ultralytics. Polars uses a charcoal backing for its white mark. Four libraries without verified assets remain text-only: LightGBM, FAISS, Sentence Transformers, and pgvector. The source inventory is in `stack-icons.json`; LobeHub attribution is retained in `lobe-icons-LICENSE.txt`. Enlarged stack rows for readability. Removed the duplicate stats table and explanatory accordion from both README and refresh renderer; a brief source caption and descriptive alt text remain.

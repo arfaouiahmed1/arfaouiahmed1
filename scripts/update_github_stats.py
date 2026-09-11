@@ -94,28 +94,19 @@ def render(data, theme):
 
 def update_readme(data):
     repos,langs,stars=summarize(data)
-    body='''<img src="assets/github-cover.png" alt="Code in Public — dithered open frames with a cobalt orbit, in the profile's condensed editorial typography." width="100%">
+    summary=f"{len(repos)} public repositories, {stars} stars received; primary languages: " + ', '.join(f'{name}: {n} repos' for name,n in langs)
+    body=f'''<img src="assets/github-cover.png" alt="Code in Public — dithered open frames with a cobalt orbit." width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.png">
-  <img src="assets/github-stats-light.png" alt="GitHub public repository totals and primary-language distribution; exact figures follow." width="100%">
+  <img src="assets/github-stats-light.png" alt="{summary}." width="100%">
 </picture>
 
-<details>
-<summary>Stats, scope, and source</summary>
-
-'''
-    body+=f"Updated **{data['observed_on']} UTC** · **{len(repos)} public repositories** · **{stars} stars received** · **{len(langs)} primary languages**.\n\n"
-    body+='| Primary language | Repositories |\n| :--- | ---: |\n'
-    for name,n in langs:
-        body+=f'| {name} | {n} |\n'
-    body+=f"| Not classified | {len(repos)-sum(n for _,n in langs)} |\n\n"
-    body+='Language proportions count repositories with a GitHub-assigned primary language. They do not measure coding time, language bytes, or proficiency. Public owned repositories are included across the account; forks and private repositories are excluded.\n\n[Source snapshot](docs/github-stats.json) · [Refresh workflow](.github/workflows/github-stats.yml)\n\n</details>'
+<sub>Public owned repositories · primary-language counts · updated {data['observed_on']} · [Data](docs/github-stats.json)</sub>'''
     path=ROOT/'README.md'
     old=path.read_text()
     updated,n=re.subn(r'<!-- github-stats:start -->.*?<!-- github-stats:end -->',lambda _: '<!-- github-stats:start -->\n'+body+'\n<!-- github-stats:end -->',old,flags=re.S)
-    if n!=1:
-        raise ValueError('Expected exactly one stats block')
+    if n!=1:raise ValueError('Expected exactly one stats block')
     path.write_text(updated)
 
 def main():
