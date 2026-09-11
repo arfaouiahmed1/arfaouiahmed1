@@ -123,6 +123,8 @@ flowchart TD
 [Architecture notes](https://github.com/arfaouiahmed1/Open-Web-Catcher/blob/main/docs/wiki/Architecture.md) · [Orchestrator](https://github.com/arfaouiahmed1/Open-Web-Catcher/blob/main/src/agents/orchestrator.py)
 </details>
 
+<p><img src="assets/stacks/owc.png" alt="Python, LangGraph, Playwright, FastAPI, PostgreSQL, Next.js" width="474"></p>
+
 `Python` `LangGraph` `Playwright MCP` `FastAPI` `PostgreSQL` `Next.js`
 
 ### [HuntFlow](https://github.com/arfaouiahmed1/huntflow)
@@ -156,6 +158,8 @@ flowchart TD
 
 [Architecture](https://github.com/arfaouiahmed1/huntflow/blob/master/docs/ARCHITECTURE.md) · [Vault retrieval](https://github.com/arfaouiahmed1/huntflow/blob/master/src/lib/vault/search.ts)
 </details>
+
+<p><img src="assets/stacks/huntflow.png" alt="TypeScript, Node.js, Next.js, LangGraph, SQLite" width="395"></p>
 
 `TypeScript` `Next.js` `LangGraph` `SQLite` `BM25` `Vector retrieval`
 
@@ -195,6 +199,8 @@ flowchart TD
 [Champion metrics](https://github.com/arfaouiahmed1/PitWall-ML/blob/main/artifacts/champion/metrics.json) · [Session splits](https://github.com/arfaouiahmed1/PitWall-ML/blob/main/artifacts/champion/splits.json) · [Dashboard](https://arfaouiahmed1.github.io/PitWall-ML/)
 </details>
 
+<p><img src="assets/stacks/pitwall.png" alt="Python, Polars, LightGBM, FastAPI, Prometheus, Grafana" width="474"></p>
+
 `Python` `Polars` `LightGBM` `FastAPI` `WebSockets` `Prometheus`
 
 ### [SignalRank](https://github.com/arfaouiahmed1/signalrank)
@@ -230,6 +236,8 @@ flowchart TD
 
 [Retrieval code](https://github.com/arfaouiahmed1/signalrank/blob/main/backend/app/retrieval/hybrid.py) · [Evaluation artifact](https://github.com/arfaouiahmed1/signalrank/blob/main/artifacts/metrics.json) · [Demo](https://arfaouiahmed1.github.io/signalrank/)
 </details>
+
+<p><img src="assets/stacks/signalrank.png" alt="Python, FastAPI, PostgreSQL, pgvector, Sentence Transformers, React" width="474"></p>
 
 `Python` `FastAPI` `PostgreSQL` `pgvector` `Sentence Transformers` `React`
 
@@ -298,6 +306,8 @@ The breadth here is the engineering story: preparing data, training different mo
 
 [Training notebooks](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Notebooks) · [Predictive-model code](https://github.com/arfaouiahmed1/Data-Farmers-FarmWise-4DS3/tree/main/Models/ml_models)
 
+<p><img src="assets/stacks/farmwise.png" alt="Python, YOLOv8, PyTorch, scikit-learn, CatBoost, Gemma, FAISS, Django REST" width="632"></p>
+
 `Python` `YOLOv8` `PyTorch` `scikit-learn` `CatBoost` `Gemma` `FAISS` `Next.js` `Django`
 
 ### [NEWSBOT AI](https://github.com/arfaouiahmed1/NewBot-AI) · News analysis & NLP
@@ -314,9 +324,13 @@ The public repository contains the **React / TypeScript** application: a news da
 
 [Assistant implementation](https://github.com/arfaouiahmed1/NewBot-AI/blob/main/components/GlobalAssistant.tsx)
 
+<p><img src="assets/stacks/newsbot.png" alt="React, TypeScript, Gemini API" width="237"></p>
+
 `React` `TypeScript` `Gemini API` `Streaming responses` `Search grounding`
 
 ### [Personal portfolio](https://ahmed-arfaoui-portfolio.vercel.app) · Interface engineering & visual storytelling
+
+<p><img src="assets/stacks/portfolio.png" alt="Next.js, React, TypeScript, Node.js" width="316"></p>
 **A place for the projects, the route into engineering, and the photography alongside it.**
 
 Built with **Next.js, React, and TypeScript**, the portfolio combines project case studies, internship experience, a personal journey, and a photography gallery. Custom responsive layouts and a scroll-driven motion system give the site its visual character; reduced-motion support and progressive enhancement keep the content accessible when motion is disabled or unavailable.
@@ -354,18 +368,25 @@ That loop appears in different forms across the portfolio:
   <img src="assets/evaluation-light.png" alt="Engineering Judgment — contrasting dithered specimens within a common frame, illustrating comparison and inspection." width="100%">
 </picture>
 
-<p>
-  <img src="assets/icons/python.png" alt="Python" title="Python" width="64" height="64">
-  <img src="assets/icons/typescript.png" alt="TypeScript" title="TypeScript" width="64" height="64">
-  <img src="assets/icons/pytorch.png" alt="PyTorch" title="PyTorch" width="64" height="64">
-  <img src="assets/icons/scikitlearn.png" alt="scikit-learn" title="scikit-learn" width="64" height="64">
-  <img src="assets/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="64" height="64">
-  <img src="assets/icons/fastapi.png" alt="FastAPI" title="FastAPI" width="64" height="64">
-  <img src="assets/icons/docker.png" alt="Docker" title="Docker" width="64" height="64">
-  <img src="assets/icons/nextjs.png" alt="Next.js" title="Next.js" width="64" height="64">
-</p>
+**Languages & runtimes**
 
-Python · TypeScript · PyTorch · scikit-learn · PostgreSQL · FastAPI · Docker · Next.js
+<p><img src="assets/stacks/languages.png" alt="Python, JavaScript, TypeScript, Node.js, Java, Jupyter" width="474"></p>
+
+**Machine learning & data**
+
+<p><img src="assets/stacks/machine-learning.png" alt="PyTorch, scikit-learn, YOLOv8, CatBoost, LightGBM, Polars, Gemma, Mistral" width="632"></p>
+
+**Agents, retrieval & browser automation**
+
+<p><img src="assets/stacks/agents-retrieval.png" alt="LangGraph, LangChain, Playwright, FAISS, Sentence Transformers, Gemini API" width="474"></p>
+
+**APIs & persistence**
+
+<p><img src="assets/stacks/backend.png" alt="FastAPI, Django REST, PostgreSQL, SQLite, pgvector, Spring Boot" width="474"></p>
+
+**Interfaces, infrastructure & delivery**
+
+<p><img src="assets/stacks/delivery.png" alt="Next.js, React, Docker, Azure, Prometheus, Grafana, Git, GitHub Actions" width="632"></p>
 
 | Area | What I actually build |
 | :--- | :--- |

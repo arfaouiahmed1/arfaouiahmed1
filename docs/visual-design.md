@@ -53,3 +53,7 @@ The complete inventory is now 42 PNGs: the original 24 editorial assets, eight l
 ### Stats editorial polish
 
 The GitHub section now opens with an individually generated `github-cover.png` illustration: monumental CODE IN PUBLIC lettering, interlocking dither frames, cobalt orbit, and vermilion marker. Generation used the approved name masthead as its reference. The numerical panel uses Nimbus Sans Narrow Bold display numerals, monospaced annotations, registration marks, and a restrained cobalt/charcoal bar chart. Each bar reports the same denominator and a zero-to-100% track. The workflow installs `fonts-urw-base35` to preserve this typography on refresh. Both numerical themes remain deterministic and accessible through the accompanying table. Total PNG inventory: 43.
+
+### Complete stack icon rows
+
+The toolkit now covers 34 named technologies across five grouped rows and seven project-specific rows. All 12 new assets are static PNGs in `assets/stacks/`, with readable labels and descriptive alt text. Devicon provides official glyphs under the retained MIT license. Technologies without a supplied Devicon glyph use original typographic identifiers rather than invented official logos. See `stack-icons.json` for the inventory. Node.js is verified against HuntFlow's Node 22 engine requirement. Project text retains methodological concepts such as BM25, vector retrieval, and streaming separately from tool identities. Total PNG inventory: 55.

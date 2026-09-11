@@ -1,0 +1,115 @@
+{
+  "style": "Ivory raster tiles; Devicon official logos where available, original labelled monogram tiles otherwise",
+  "groups": {
+    "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Java",
+      "Jupyter"
+    ],
+    "machine-learning": [
+      "PyTorch",
+      "scikit-learn",
+      "YOLOv8",
+      "CatBoost",
+      "LightGBM",
+      "Polars",
+      "Gemma",
+      "Mistral"
+    ],
+    "agents-retrieval": [
+      "LangGraph",
+      "LangChain",
+      "Playwright",
+      "FAISS",
+      "Sentence Transformers",
+      "Gemini API"
+    ],
+    "backend": [
+      "FastAPI",
+      "Django REST",
+      "PostgreSQL",
+      "SQLite",
+      "pgvector",
+      "Spring Boot"
+    ],
+    "delivery": [
+      "Next.js",
+      "React",
+      "Docker",
+      "Azure",
+      "Prometheus",
+      "Grafana",
+      "Git",
+      "GitHub Actions"
+    ],
+    "owc": [
+      "Python",
+      "LangGraph",
+      "Playwright",
+      "FastAPI",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "huntflow": [
+      "TypeScript",
+      "Node.js",
+      "Next.js",
+      "LangGraph",
+      "SQLite"
+    ],
+    "pitwall": [
+      "Python",
+      "Polars",
+      "LightGBM",
+      "FastAPI",
+      "Prometheus",
+      "Grafana"
+    ],
+    "signalrank": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "pgvector",
+      "Sentence Transformers",
+      "React"
+    ],
+    "farmwise": [
+      "Python",
+      "YOLOv8",
+      "PyTorch",
+      "scikit-learn",
+      "CatBoost",
+      "Gemma",
+      "FAISS",
+      "Django REST"
+    ],
+    "newsbot": [
+      "React",
+      "TypeScript",
+      "Gemini API"
+    ],
+    "portfolio": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js"
+    ]
+  },
+  "monograms": [
+    "YOLOv8",
+    "CatBoost",
+    "LightGBM",
+    "Polars",
+    "Gemma",
+    "Mistral",
+    "LangGraph",
+    "LangChain",
+    "FAISS",
+    "Sentence Transformers",
+    "Gemini API",
+    "pgvector"
+  ]
+}
