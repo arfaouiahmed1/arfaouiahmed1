@@ -411,10 +411,10 @@ pgvector
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.png">
-  <img src="assets/github-stats-light.png" alt="11 public repositories, 4 stars received; primary languages: Python: 3 repos, Jupyter Notebook: 2 repos, Kotlin: 2 repos, TypeScript: 2 repos, CSS: 1 repos." width="100%">
+  <img src="assets/github-stats-light.png" alt="9 public repositories, 4 stars received; primary languages: Jupyter Notebook: 2 repos, Kotlin: 2 repos, Python: 2 repos, TypeScript: 2 repos, CSS: 1 repos." width="100%">
 </picture>
 
-<sub>Public owned repositories · primary-language counts · updated 2026-09-14 · [Data](docs/github-stats.json)</sub>
+<sub>Public owned repositories · primary-language counts · updated 2026-09-21 · [Data](docs/github-stats.json)</sub>
 <!-- github-stats:end -->
 
 ## 08 / Current direction
